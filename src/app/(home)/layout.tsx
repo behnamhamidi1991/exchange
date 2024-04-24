@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "../globals.css";
 
 export const metadata: Metadata = {
-  title: "صرافی ارز دیجیتال بیتمکس",
-  description: "خرید، فروش، ترید و سرمایه گذاری ارز دیجیتال",
+  title: "Crypto Exchange | Bitcoin Exchange | Crypto Trade",
+  description: "Buy, sell, trade and invest cryptocurrencies",
   icons: {
     icon: ["/cryptoicon.png?v=4"],
     apple: ["/cryptoicon.png?v=4"],
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fa-IR" dir="rtl">
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

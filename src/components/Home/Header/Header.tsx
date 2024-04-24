@@ -11,39 +11,40 @@ const Header = () => {
   return (
     <div className="main-header-wrapper">
       <header className="main-header">
-        <div className="header-navbar">
-          <div className="header-navbar-logo">
+        <div className="main-header-left">
+          <div className="main-header-logo">
             <Image src={logoIcon} width={30} height={30} alt="logo" />
           </div>
-          <ul className="header-navbar-links">
+          <ul className="main-header-links">
             <li>
-              <Link href="/" className="header-nav-item">
-                صفحه اصلی
+              <Link href="/" className="main-header-navlinks">
+                Home
               </Link>
             </li>
             <li>
-              <Link href="/" className="header-nav-item">
-                بازار
+              <Link href="/" className="main-header-navlinks">
+                Market
               </Link>
             </li>
             <li>
-              <Link href="/" className="header-nav-item">
-                رویدادها
+              <Link href="/" className="main-header-navlinks">
+                Events
               </Link>
             </li>
             <li>
-              <Link href="/" className="header-nav-item">
-                درباره ما
+              <Link href="/" className="main-header-navlinks">
+                About
               </Link>
             </li>
             <li>
-              <Link href="/" className="header-nav-item">
-                تماس ما
+              <Link href="/" className="main-header-navlinks">
+                Contact
               </Link>
             </li>
           </ul>
         </div>
-        <div className="header-icons"></div>
+
+        <div className="main-header-right"></div>
       </header>
     </div>
   );

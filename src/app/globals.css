@@ -7,32 +7,20 @@
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "IranSans";
-  src: url("../assets/fonts/IRANSansWeb.ttf");
-}
-
-@font-face {
-  font-family: "IranSansLight";
-  src: url("../assets/fonts/IRANSansWeb_UltraLight.ttf");
-}
-
-@font-face {
-  font-family: "IranSansBold";
-  src: url("../assets/fonts/IRANSansWeb_Bold.ttf");
-}
-
-@font-face {
-  font-family: "IranSansBlack";
-  src: url("../assets/fonts/IRANSansWeb_Black.ttf");
-}
-
-@font-face {
-  font-family: "IranSansFanum";
-  src: url("../assets/fonts/IRANSansWeb\(FaNum\).ttf");
+:root {
+  --primary-color: #f3f3f3;
+  --secondary-color: #fff;
+  --link-color: #aabbc2;
+  --text-color: #fff;
+  --gold-color: #ffb301;
+  --lotus-color: #dd4f00;
+  --blue-color: #4166f5;
+  --blue-dark: #0047ab;
 }
 
 body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 h1 {
