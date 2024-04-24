@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaUser } from "react-icons/fa";
 import { FaWallet } from "react-icons/fa";
+import { AiOutlineQrcode } from "react-icons/ai";
 import "./header.css";
 
 const Header = () => {
