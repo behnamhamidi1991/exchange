@@ -1,10 +1,11 @@
-import React from "react";
 import logoIcon from "@/assets/cryptoicon.png";
 import Image from "next/image";
 import Link from "next/link";
 import { FaUser } from "react-icons/fa";
 import { FaWallet } from "react-icons/fa";
 import { AiOutlineQrcode } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { LuSunMedium } from "react-icons/lu";
 import "./header.css";
 
 const Header = () => {
@@ -44,7 +45,23 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className="main-header-right"></div>
+        <div className="main-header-right">
+          <button>
+            <FaUser />
+          </button>
+          <button>
+            <FaWallet />
+          </button>
+          <button>
+            <AiOutlineQrcode />
+          </button>
+          <button>
+            <LuSunMedium />
+          </button>
+          <button>
+            <GiHamburgerMenu />
+          </button>
+        </div>
       </header>
     </div>
   );

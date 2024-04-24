@@ -1,0 +1,15 @@
+.cryptoList {
+  font-family: "Roboto";
+  padding: 100px 10%;
+}
+
+.postBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 10px;
+}
+
+.box {
+  background-color: var(--secondary-color);
+  padding: 10px;
+}
