@@ -1,0 +1,22 @@
+.header-wrapper {
+}
+
+.main-header {
+}
+
+.header-navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.header-nav-item {
+  font-family: "IranSans";
+  font-size: 14px;
+  font-weight: bold;
+}
